@@ -1,0 +1,385 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/home/home",
+			"style": {
+				"navigationBarTitleText": "%pages.index%"
+			}
+		}, {
+			"path": "pages/tabbar/P2P/P2P",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"color": "#683BBC"
+					}
+				}
+			}
+		}, {
+			"path": "pages/tabbar/fapHelp/fapHelp",
+			"style": {
+				"navigationBarTitleText": "%pages.fap-help%"
+			}
+		}, {
+			"path": "pages/tabbar/profile/profile",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/agreement/agreement",
+			"style": {
+				"navigationBarTitleText": "%pages.agreement%"
+			}
+		},
+		{
+			"path": "pages/forgetPassword/forgetPassword",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+			"style": {
+				"navigationBarTitleText": "%pages.avatar-cut%",
+				"navigationBarBackgroundColor": "#000000"
+			}
+		}
+	    ,{
+            "path" : "pages/tabbar/deposit/deposit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "存款",
+                "enablePullDownRefresh": false
+							
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/deposit/deposit-introduce",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "存款介绍",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"subPackages": [{
+		"root": "pagesA",
+		"pages": [{
+			"path": "pages/personInfo/personInfo"
+		}, {
+			"path": "pages/notice/noticeList",
+			"style": {
+				"navigationBarTitleText": "%pages.notice.list%"
+			}
+		}, {
+			"path": "pages/notice/noticeDetail",
+			"style": {
+				"navigationBarTitleText": "%pages.notice.detail%"
+			}
+		}, {
+			"path": "pages/selectCurreny/selectCurreny",
+			"style": {
+				"navigationBarTitleText": "%pages.coin.choose%"
+			}
+		}, {
+			"path": "pages/payMethod/payMethod",
+			"style": {
+				"navigationBarTitleText": "%pages.add-payment-type%"
+			}
+		}, {
+			"path": "pages/addPayMethod/addPayMethod",
+			"style": {
+				"navigationBarTitleText": "%pages.payment-type%"
+			}
+		}, {
+			"path": "pages/payList/payList",
+			"style": {
+				"navigationBarTitleText": "%pages.payment-type%"
+			}
+
+		}, {
+			"path": "pages/moreInfo/moreInfo",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}]
+	}, {
+		"root": "pagesB",
+		"pages": [{
+				"path": "pages/help/help",
+				"style": {
+					"navigationBarTitleText": "%pages.help.detail%"
+				}
+			}, {
+				"path": "pages/account-set/account-set",
+				"style": {
+					"navigationBarTitleText": "%pages.account.setting%",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "pages/order/order",
+				"style": {
+					"navigationBarTitleText": "%pages.order.history%",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+
+			}, {
+				"path": "pages/security/security",
+				"style": {
+					"navigationBarTitleText": "%pages.security.setting%",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "pages/realname/realname",
+				"style": {
+					"navigationBarTitleText": "%pages.security.realname%",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "pages/invitation/invitation",
+				"style": {
+					"navigationBarTitleText": "%pages.invitation%",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "pages/extension/extension",
+				"style": {
+					"navigationBarTitleText": "%pages.expands%",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "pages/about/about",
+				"style": {
+					"navigationBarTitleText": "%pages.about-us%",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "pages/lang/lang",
+				"style": {
+					"navigationBarTitleText": "%pages.switch-lang%",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/amount-history/amount-history",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+
+			}, {
+				"path": "pages/cash-in/cash-in",
+				"style": {
+					"navigationBarTitleText": "%pages.recharge%",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+
+			}, {
+				"path": "pages/cash-out/cash-out",
+				"style": {
+					"navigationBarTitleText": "%pages.withdrawal%",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+
+			}, {
+				"path": "pages/account-set/nickname-modify",
+				"style": {
+					"navigationBarTitleText": "%pages.nickname.modify%",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "pages/account-set/infoSet",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "pages/cash-in/history",
+				"style": {
+					"navigationBarTitleText": "%pages.history.recharge%",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "pages/cash-out/history",
+				"style": {
+					"navigationBarTitleText": "%pages.history.withdrawal%",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "pages/security/password-modify",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "pages/realname/audit-status",
+				"style": {
+					"navigationBarTitleText": "%pages.security.realname%",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "pages/contact/contact",
+				"style": {
+					"navigationBarTitleText": "%pages.contact-us%",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "pages/contact/history",
+				"style": {
+					"navigationBarTitleText": "%pages.history.feedback%",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "pages/contact/history-detail",
+				"style": {
+					"navigationBarTitleText": "%pages.history.feedback%",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "pages/order/order-detail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "pages/order/order-detail-deep",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "pages/transfer/transfer",
+				"style": {
+					"navigationBarTitleText": "%pages.transfer%",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+
+			}, {
+				"path": "pages/transfer/transfer-history",
+				"style": {
+					"navigationBarTitleText": "%pages.history.transfer%",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/order/appeal",
+				"style": {
+					"navigationBarTitleText": "%pages.appeal%",
+					"enablePullDownRefresh": false
+				}
+			}
+
+			, {
+				"path": "pages/extension/zhi-tui",
+				"style": {
+					"navigationBarTitleText": "我的直推",
+					"enablePullDownRefresh": false
+				}
+
+			}
+
+			, {
+				"path": "pages/myContact/myContact",
+				"style": {
+					"navigationBarTitleText": "联系方式",
+					"enablePullDownRefresh": false
+				}
+
+			}
+		]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#2C0D33",
+		"backgroundColor": "#2C0D33"
+	},
+	"tabBar": {
+		"color": "#B0A1EC",
+		"selectedColor": "#FFFFFF",
+		"backgroundColor": "#2C0D33",
+		"fontSize": "10px",
+		"height": "50px",
+		"iconWidth": "22px",
+		"list": [{
+				"pagePath": "pages/tabbar/home/home",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png",
+				"text": "%pages.index%"
+			},
+			{
+				"pagePath": "pages/tabbar/P2P/P2P",
+				"iconPath": "static/tabbar/P2P.png",
+				"selectedIconPath": "static/tabbar/P2P-active.png",
+				"text": "P2P"
+			},
+			// {
+			// 	"pagePath": "pages/tabbar/deposit/deposit",
+			// 	"iconPath": "static/tabbar/wenda.png",
+			// 	"selectedIconPath": "static/tabbar/wenda-active.png",
+			// 	"text": "%pages.ask%"
+				
+			// },
+			{
+				"pagePath": "pages/tabbar/profile/profile",
+				"iconPath": "static/tabbar/mine.png",
+				"selectedIconPath": "static/tabbar/mine-active.png",
+				"text": "%pages.mine%"
+			}
+		]
+	},
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	// 开发模式自己编辑
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式（list 的索引项）
+		"list": [{
+				"name": "首页", //模式名称
+				"path": "pages/tabbar/home/home", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "登录", //模式名称
+				"path": "pages/login/login", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			}
+		]
+	}
+}

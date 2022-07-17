@@ -1,0 +1,42 @@
+.input-wrap {
+  background-color: #45324a;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8rpx;
+	position: relative;
+	width: 100%;
+	.sao_icon{
+		width: 46rpx !important;
+		height: 46rpx !important;
+	}
+  input {
+    color: #f6f6f6 !important;
+  }
+}
+.box-wrap {
+  background-color: #45324a;
+  padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8rpx;
+}
+.fixed-bottom {
+  position: fixed;
+  left: 0;
+    right: 0;
+    bottom: 0;
+  padding: 0 30rpx 98rpx ;
+  display: flex;
+  justify-content: center;
+  background-color: #2C0D33;
+}
+.fixed-bottom-ex{
+  margin-top: 50rpx;
+  padding: 0 30rpx 98rpx ;
+  display: flex;
+  justify-content: center;
+  background-color: #2C0D33;
+	}

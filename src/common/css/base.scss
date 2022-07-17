@@ -1,0 +1,17 @@
+::v-deep {
+  .u-cell-item-box {
+    background-color: transparent !important;
+  }
+  .u-cell-hover {
+    background-color: darken($color: #2c0d33, $amount: 2) !important;
+  }
+  .u-border-bottom::after {
+    border-color: rgba($color: #f5f5f5, $alpha: 0.1);
+  }
+  .u-image__error {
+    background-color: transparent !important;
+  }
+  .u-list-item {
+    background-color: #2c0d33 !important;
+  }
+}

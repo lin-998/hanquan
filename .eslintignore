@@ -1,0 +1,9 @@
+**/node_modules
+**/dist
+**/static
+*.md
+*.woff
+*.ttf
+*.tpl
+**/uview-ui
+**/uni_modules
